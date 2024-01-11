@@ -197,17 +197,17 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
-"@rive-app/canvas@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@rive-app/canvas/-/canvas-1.2.1.tgz#6fad44c202b09a4501a275659a5f6dda373a51a1"
-  integrity sha512-udDH8al7ra9F7zBc3kzseEVa+9znucqfRtLPAPfXNNq/xfeGdvXCwWj7Vu5lFe0fJ76slKYtxUZIxp5LkiPVYw==
+"@rive-app/canvas@2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@rive-app/canvas/-/canvas-2.9.2.tgz#a6b980241268afb8502cf178d4aa8ae43e3917e9"
+  integrity sha512-XkrAjhiPl+qf+Tqnl31zICnTmrjpgAz91QEYNk/f52M5quEzU59MR9H2xZRd7+Hm8eJSYezInYYcqxFoTsGVaQ==
 
-"@rive-app/react-canvas@^3.0.54":
-  version "3.0.54"
-  resolved "https://registry.yarnpkg.com/@rive-app/react-canvas/-/react-canvas-3.0.54.tgz#596503f3ccb4bcfb01cd55ad5a5eff8ef58ccdc4"
-  integrity sha512-jhgUeSKph3mF0nOyJs84L8u7eStRKX2tgxVgLZBB4+YLQfm4Tx9ZruYiiihtTeVU/dR0u1qav9P66rvr9keFyQ==
+"@rive-app/react-canvas@^4.7.1":
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/@rive-app/react-canvas/-/react-canvas-4.7.1.tgz#a248e6a4b17e0c9c970627e45af9d066850bd053"
+  integrity sha512-96Bbn0sgcPUYcjGJfw11tImefk52FJTPK4X78WHF4wLMI+xVHhbSv5aDO58eFkcZLF/60eqL08EnyszOOfa6JA==
   dependencies:
-    "@rive-app/canvas" "1.2.1"
+    "@rive-app/canvas" "2.9.2"
 
 "@rushstack/eslint-patch@^1.1.3":
   version "1.3.2"
