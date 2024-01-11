@@ -66,8 +66,8 @@ export default function Stage() {
   }, [rive]);
 
   return (
-    <div className="bg-[#254562] h-[100vh]">
-      <RiveComponent className="h-[100vh] w-[100vw]" />
+    <div className="bg-[#254562] bg-opacity-90 h-[100vh]">
+      <RiveComponent className="h-[100vh] w-[100vw] cursor-pointer" />
     </div>
   );
 }
