@@ -40,13 +40,18 @@ export default function Stage() {
   // }, []);
 
   const onRiveEventReceived = (riveEvent: any) => {
-    // console.log('EVENT:')
+    // console.log("EVENT: ", riveEvent);
     const eventData = riveEvent.data;
     const eventProperties = eventData.properties;
     if (eventData.type === RiveEventType.General) {
       console.log("Event name", eventData.name);
       if (eventData.name === "gameStarted") {
         playSound("jazz_happy.mp3");
+      }
+
+      if (eventData.name === "gameFinished") {
+        playSound("beaver.wav");
+        setTimeout(() => playSound("win.wav"), 1000);
       }
       // playSound(eventData.name);
       // Added relevant metadata from the event
